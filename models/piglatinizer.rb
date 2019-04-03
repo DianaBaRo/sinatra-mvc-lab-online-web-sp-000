@@ -1,5 +1,5 @@
 class PigLatinizer
-
+  #solution from: https://medium.com/@c.emily.collins/translating-to-pig-latin-with-ruby-f4e8e91d927e
   def piglatinize(string)
     a = string.split(" ")
     b = a.map {|word| piglatinize_word(word)}
